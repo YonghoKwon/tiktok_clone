@@ -41,13 +41,13 @@ class LoginScreen extends StatelessWidget {
               ),
               Gaps.v40,
               AuthButton(
-                icon:FaIcon(FontAwesomeIcons.user),
+                icon: FaIcon(FontAwesomeIcons.user),
                 text: "Use phone or email",
               ),
               Gaps.v16,
               AuthButton(
-                  icon:FaIcon(FontAwesomeIcons.apple),
-                  text: "Continue with Apple",
+                icon: FaIcon(FontAwesomeIcons.apple),
+                text: "Continue with Apple",
               ),
             ],
           ),
@@ -58,7 +58,7 @@ class LoginScreen extends StatelessWidget {
         elevation: 2,
         child: Padding(
           padding: const EdgeInsets.symmetric(
-            horizontal: Sizes.size32,
+            vertical: Sizes.size32,
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
