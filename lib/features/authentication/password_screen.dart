@@ -152,11 +152,10 @@ class _PasswordScreenState extends State<PasswordScreen> {
                 ],
               ),
               Gaps.v28,
-              GestureDetector(
+              FormButton(
+                disabled: !_isPasswordValid(),
                 onTap: _onSubmit,
-                child: FormButton(
-                  disabled: !_isPasswordValid(),
-                ),
+                text: 'Next',
               ),
             ],
           ),
